@@ -1,0 +1,7 @@
+import kagglehub
+
+# Download latest version
+path = kagglehub.dataset_download("noeyislearning/weekly-hospital-respiratory-data-and-metrics")
+
+print("Path to dataset files:", path)
+
